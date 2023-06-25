@@ -16,7 +16,6 @@ CreateThread(function()
     local wait = 1000
     local stabil = false
     local playerPed = PlayerPedId()
-    local vehicle = adder
 
     if #(coords - Pos) < 1 then
         wait = 2
