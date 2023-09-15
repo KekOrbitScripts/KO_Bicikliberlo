@@ -25,7 +25,7 @@ CreateThread(function()
                 --- ha más notify-t akarsz akkor ide rakd az exportot
                 exports['okokNotify']:Alert('Bicikli bérlő!', 'Sikeresen béreltél egy biciklit!', 5000, 'success', playSound)
                 --- ha más notify-t akarsz akkor ide rakd az exportot
-                ESX.Game.SpawnVehicle(Config.Modell, Config.Spawnkordi, 219.6804, function(vehicle)
+                ESX.Game.SpawnVehicle(Config.Modell, Config.Spawnkordi, Config.Spawnheading, function(vehicle)
                     TaskWarpPedIntoVehicle(playerPed, vehicle, -1)
                 end)
         end
