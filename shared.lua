@@ -7,3 +7,4 @@ Config.Marker = {
 Config.Berlokordi = vector3(-1281.3495, -556.1184, 30.6268)
 Config.Modell = "bmx"
 Config.Spawnkordi = vector3(-1276.4730, -556.4096, 30.2506)
+Config.Spawnheading = 219.17
