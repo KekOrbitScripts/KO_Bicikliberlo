@@ -1,8 +1,8 @@
 game 'gta5'
 fx_version 'adamant'
-description 'UnderScripts Bicikli bérlő'
+description 'KO_Scripts Bicikli bérlő'
 version '1.0'
-author 'US_scripts'
+author 'kek_orbit.'
 
 client_scripts {
     'client.lua',
